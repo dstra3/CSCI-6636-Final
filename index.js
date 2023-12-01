@@ -1,4 +1,4 @@
-const http = require('http') ; 
+const http = require('http'); 
 const fs = require('fs');
 const path = require('path');
 
@@ -8,14 +8,14 @@ http.createServer((req, res) =>{
     console.log(req.url);
     if(req.url ==='/'){ // home page
         fs.readFile(path.join(__dirname,'public','index.html'),(err,content)=>{
-            if (err) throw err ;
+            if (err) throw err;
             res.writeHead(200, {'Content-Type': 'text/html'});
             res.end(content);
         });
     }
     else if (req.url === '/api'){  // api database
         fs.readFile(path.join(__dirname,'public','db.json'),(err,content)=>{
-            if (err) throw err ;
+            if (err) throw err;
             res.writeHead(200, {'Content-Type': 'application/json',
                                 'access-control-allow-origin': '*'}); //https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin
             res.end(content);
