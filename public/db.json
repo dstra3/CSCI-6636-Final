@@ -1,0 +1,72 @@
+{"games": [{
+  "id":1,
+  "title": "Castlevania: Rondo of Blood",
+  "year": 1993,
+  "device": "Super CD-ROM",
+  "metacritic": "N/A",
+  "protagonist": "Richter Belmont"
+},
+{
+  "id":2,
+  "title": "Castlevania: Bloodlines",
+  "year": 1994,
+  "device": "Sega Genesis",
+  "metacritic": "N/A",
+  "protagonist": "John Morris and Eric Lecarde"
+},
+{
+  "id":3,
+  "title": "Castlevania: Symphony of the Night",
+  "year": 1997,
+  "device": "Playstation",
+  "metacritic": 89,
+  "protagonist": "Alucard"
+},
+{
+  "id":4,
+  "title": "Castlevania: Circle of the Moon",
+  "year": 2001,
+  "device": "Game Boy Advance",
+  "metacritic": 91,
+  "protagonist": "Nathan Graves"
+},
+{
+  "id":5,
+  "title": "Castlevania: Harmony of Dissonance",
+  "year": 2002,
+  "device": "Game Boy Advance",
+  "metacritic": 87,
+  "protagonist": "Juste Belmont"
+},
+{
+  "id":6,
+  "title": "Castlevania: Aria of Sorrow",
+  "year": 2003,
+  "device": "Game Boy Advance",
+  "metacritic": 91,
+  "protagonist": "Soma Cruz"
+},
+{
+  "id":7,
+  "title": "Castlevania: Dawn of Sorrow",
+  "year": 2005,
+  "device": "Nintendo DS",
+  "metacritic": 89,
+  "protagonist": "Soma Cruz"
+},
+{
+  "id":8,
+  "title": "Castlevania: Portrait of Ruin",
+  "year": 2006,
+  "device": "Nintendo DS",
+  "metacritic": 85,
+  "protagonist": "Johnathan Morris and Charlotte Aulin"
+},
+{
+  "id":9,
+  "title": "Castlevania: Order of Ecclesia",
+  "year": 2008,
+  "device": "Nintendo DS",
+  "metacritic": 85,
+  "protagonist": "Shanoa"
+}]}
